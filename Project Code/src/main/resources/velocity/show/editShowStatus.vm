@@ -1,0 +1,13 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id='loginForm' method='post'>
+<h2>Edit status of $show.title:</h2>
+<label>Status</label>
+<select name="status">
+<option>Visible</option>
+<option>Suspended</option>
+<option>Rejected</option>
+</select><br><br>
+<input type="submit" value="Edit Show Status">
+</form>
+#end

@@ -1,0 +1,38 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+ #if($show)
+    <h1>$show.title</h1>
+    <h2>$show.year</h2>
+    #if($show.isMovie)
+    <h2>$show.length hour runtime</h2>
+    #elseif($show.isSeries)
+    <h2>$show.length episodes</h2>
+    #end
+    <ul id="showOptions">
+        #if($currentUser.type == "Admin")
+            <a><form method="post" action="/deleteShow/$show.id">
+                <button id="remove">Delete Show</button>
+            </form></a>
+            <a href="/editShow/$show.id">Edit Show</a>
+            <br>
+            <a href="/editShowStatus/$show.id">Edit Show Status</a>
+            <br>
+        #end
+            <a href="/addReview/$show.id">Add Review</a>
+    </ul>
+    <div class="book">
+        <div class="bookCover">
+            <img src="/img/$show.imageFilename" alt="$show.title">
+        </div>
+    </div>
+     #foreach($review in $reviews)
+    #if($review.showID == $show.id)
+    <li>
+    $review.email says: $review.review - $review.rating out of 5 stars.
+    </li>
+    #end
+    #end
+    #else
+    <h1>Show not found.</h1>
+    #end
+#end

@@ -1,0 +1,23 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id='loginForm' method='post'>
+#if($authenticationFailed)
+        <p class="bad notification">Review not added</p>
+    #elseif($authenticationSucceeded)
+        <p class="good notification">Successfully submitted review!</p>
+    #end
+<h1>Add review to database</h1>
+    <p>Please enter details of review:</p>
+<label>Review ID</label>
+<input type="text" name="reviewID" placeholder="1" value="" required>
+<label>Show ID</label>
+<input type="text" name="showID" placeholder="1" value="" required>
+<label>Username</label>
+<input type="text" name="username" placeholder="John" value="" required>
+<label>Rating</label>
+<input type="text" name="rating" placeholder="5" value="" required>
+<label>Review</label>
+<input type="text" name="review" placeholder="Good movie" value="" required>
+<input type="submit" value="Add Review">
+</form>
+#end

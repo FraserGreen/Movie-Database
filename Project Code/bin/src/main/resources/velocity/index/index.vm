@@ -1,0 +1,12 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>Welcome to the MovieMad Database!</h1>
+<h2>Please choose an option:</h2>
+    <li><a href="/addReview">Add Review</a></li>
+    <li><a href="/viewAllShows">View All Shows</a></li>
+
+#if($isAdmin)
+    <li><a href="/addShow">Add Show</a></li>
+#end
+
+#end

@@ -1,0 +1,47 @@
+#macro(mainLayout)
+<html>
+<head>
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="icon" href="/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index"><img id="logo" src="/img/logo1.jpg" alt="Movie Database"></a>
+            <ul id="chooseLanguage">
+                <form>
+                    <li>
+                        <button name="locale" value="de" style="background-image: url(/img/german.png);"></button>
+                    </li>
+                    <li>
+                        <button name="locale" value="en" style="background-image: url(/img/english.png);"></button>
+                    </li>
+                </form>
+            </ul>
+            <ul id="menu">
+                <li><a href="/movie">View All Movie</a></li>
+                #if($currentUser)
+                    <li>
+                        <form method="post" action="/logout">
+                            <button id="logout">Log Out</button>
+                        </form>
+                    </li>
+                #else
+                    <li><a href="/login">Logout</a></li>
+                #end
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            $bodyContent
+        </div>
+    </main>
+    <footer>
+        This Application was made for our SEF Course. All Credits Reserved
+    </footer>
+</body>
+</html>
+#end

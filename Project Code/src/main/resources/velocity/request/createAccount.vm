@@ -1,0 +1,22 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id='loginForm' method='post'>
+#if($authenticationFailed)
+        <p class="bad notification">Incorrect input entered.</p>
+    #elseif($authenticationSucceeded)
+        <p class="good notification">Successfully submitted account request!</p>
+    #end
+<h1>Create account request</h1>
+<label>Account Type</label>
+<input type="text" name="accountType" placeholder="Critic/PCo" value="" required>
+<label>Organisation Name</label>
+<input type="text" name="orgName" placeholder="Miramax Films" value="" required>
+<label>Organisation Phone</label>
+<input type="text" name="orgPhone" placeholder="0412345678" value="" required>
+#if($currentUser)
+<input type="submit" value="Submit Request">
+#else
+<input type="submit" value="Please log in to create a request." disabled>
+#end
+</form>
+#end

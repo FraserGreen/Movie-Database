@@ -1,0 +1,39 @@
+#macro(mainLayout)
+
+<html>
+	<head>
+		<title>Movie Database</title>
+		<link rel="stylesheet" href="/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+    <body>
+        <header>
+            <nav>
+                    <a href="/">
+                        <img id="logo" src="/img/icon.png" alt="Movie Database">
+                    </a>
+                    <div id="title"> MovieMad</div>
+                    #if($currentUser)
+                        <li>
+                            <form method="post" action="/logout">
+                            <a>
+                                <button id="logout">Log Out</button> </a>
+                            </form>
+                        </li>
+                    #else
+                        <li>
+                            <a href="/login">Log In</a>
+                        </li>
+                    #end
+                    <li> <a href="/signUp">Sign Up</a>
+                    </li>
+            </nav>
+        </header>
+            <main>
+                <div id="content">
+                    $bodyContent
+                </div>
+            </main>
+    </body>
+</html>
+#end

@@ -1,0 +1,4 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>You are at the wrong page. Go to <a href='/login'>Login</a> page</h1>
+#end

@@ -1,0 +1,22 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>View All Shows:</h1>
+    #foreach($show in $shows)
+    $currentShow = $show
+    <div class="col">
+            <a class="book">
+                $show.title
+                <div class="bookCover">
+                    <img src="/img/$show.imageFilename" alt="$show.title">
+                </div>
+                #if($currentUser)
+                <form method = post>
+                <label>Rate this show: </label>
+                <input type="text" name="rating" placeholder="5" value="" required>
+                <input type="submit" value="Rate">
+                </form>
+                #end
+            </a>
+        </div>
+    #end
+#end

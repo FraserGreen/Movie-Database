@@ -1,0 +1,15 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>Welcome to the MovieMad Database!</h1>
+<h2>Please choose an option:</h2>
+    <li><a href="/viewAllShows">View All Shows</a></li>
+#if($currentUser)
+    <li><a href="/addShow">Add Show</a></li>
+    <li><a href="/createAccountRequest">Create Account Request</a></li>
+#end
+#if($currentUser.type == "Admin")
+    <li><a href="/viewAllAccountRequests">View all account requests</a></li>
+
+#end
+
+#end

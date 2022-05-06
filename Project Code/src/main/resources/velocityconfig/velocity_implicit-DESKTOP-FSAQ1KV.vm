@@ -1,0 +1,8 @@
+#* @implicitly included *#
+#* @vtlvariable name="WebPath" type="app.front.Path.Web" *#
+#* @vtlvariable name="shows" type="java.lang.Iterable<app.model.dto.Show>" *#
+#* @vtlvariable name="show" type="app.model.dto.Show" *#
+#* @vtlvariable name="currentUser" type="java.lang.User" *#
+#* @vtlvariable name="authenticationFailed" type="java.lang.String" *#
+#* @vtlvariable name="authenticationSucceeded" type="java.lang.String" *#
+#* @vtlvariable name="username" type="java.lang.String" *#

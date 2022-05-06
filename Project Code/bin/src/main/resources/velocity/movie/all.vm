@@ -1,0 +1,16 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>$msg.get("MOVIES_HEADING_ALL")</h1>
+<div class="row row-3">
+    #foreach($movie in $movies)
+        <div class="col">
+            <a class="book" href="/books/$book.isbn">
+                <div class="bookCover">
+
+                </div>
+                $msg.get("MOVIES_CAPTION", $movie.name, $movie.director)
+            </a>
+        </div>
+    #end
+</div>
+#end

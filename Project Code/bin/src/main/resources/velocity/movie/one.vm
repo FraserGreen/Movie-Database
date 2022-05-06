@@ -1,0 +1,14 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    #if($movie)
+    <h1>$movie.name</h1>
+    <h2>$movie.director</h2>
+    <div class="book">
+        <div class="bookCover">
+            <img src="" alt="Image Not FOUND">
+        </div>
+    </div>
+    #else
+    <h1>$msg.get("MOVIES_BOOK_NOT_FOUND")</h1>
+    #end
+#end

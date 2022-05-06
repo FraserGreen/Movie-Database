@@ -1,0 +1,21 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>Viewing $request.email's request:</h1>
+    <div class="col">
+            <a class="book">
+                Type Requested: $request.type
+                <br>
+                Organisation Name provided: $request.orgName
+                <br>
+                Organisation Phone provided: $request.orgPhone
+            </a>
+    </div>
+
+    <form method="post" action="/acceptAccountRequest/$request.requestID">
+        <button id="accept">Accept</button>
+    </form>
+
+    <form method="post" action="/rejectAccountRequest/$request.requestID">
+        <button id="reject">Reject</button>
+    </form>
+#end

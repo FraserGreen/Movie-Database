@@ -1,0 +1,11 @@
+#* @implicitly included *#
+#* @vtlvariable name="WebPath" type="frontend.front.Path.Web" *#
+#* @vtlvariable name="msg" type="frontend.controller.localisation.MessageBundle" *#
+#* @vtlvariable name="movies" type="java.lang.Iterable<frontend.model.Show>" *#
+#* @vtlvariable name="movie" type="frontend.model.Show" *#
+#* @vtlvariable name="users" type="java.lang.Iterable<frontend.model.User>" *#
+#* @vtlvariable name="currentUser" type="java.lang.String" *#
+#* @vtlvariable name="loggedOut" type="java.lang.String" *#
+#* @vtlvariable name="authenticationFailed" type="java.lang.String" *#
+#* @vtlvariable name="authenticationSucceeded" type="java.lang.String" *#
+#* @vtlvariable name="loginRedirect" type="java.lang.String" *#

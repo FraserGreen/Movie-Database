@@ -1,0 +1,299 @@
+commit 5ed7b647f6a58d07f22cf4e4198db2bcb63eff7e
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 23:57:52 2021 +1000
+
+    removed zip
+
+commit 750cd6c6dc2c1241ba061b1237d9581379f37d98
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 23:55:50 2021 +1000
+
+    final changes to m1, zipped it up
+
+commit ce3214c8b481ab85c469345d9c0e60414d0ba649
+Merge: de2975c 30a7139
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 23:40:55 2021 +1000
+
+    fixed merge issue
+
+commit de2975c879e265ea8628354b74ecbb9f43457e85
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 23:36:40 2021 +1000
+
+    added video
+
+commit 30a7139c507e3efe8c2364864b96c7f7c96bae9a
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Tue May 4 23:16:37 2021 +1000
+
+    Changed sequence diagram
+
+commit 8a723632086c4ed5d3cbf54847d1369ca4429a32
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 22:56:33 2021 +1000
+
+    Updated the class diagram
+
+commit c77369e9d908371857ff6e8ef84a21108c4aef6f
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 22:49:37 2021 +1000
+
+    Added new class diagram
+
+commit 2698b42a323c59f12bbc3501a778996a251e49a9
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:51:07 2021 +1000
+
+    Delete old architecture file
+
+commit 173b7a2f184e7184eb666813638a5711fd3120fe
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:50:04 2021 +1000
+
+    Update README.md
+
+commit 6479d055401cebe7a96782017fa2adf0f480cad6
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:49:38 2021 +1000
+
+    Added architecture documentation
+
+commit 649da15f8394f815dccef779701d3e4342103617
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:47:37 2021 +1000
+
+    Create architecture
+
+commit f645a465fd6136623834e40a3389e4b48a62375a
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:43:48 2021 +1000
+
+    Delete architecture
+
+commit ed0e5b9450883f7a50421a0183ccae16efad6b90
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:42:56 2021 +1000
+
+    Delete classDiagram.png
+
+commit 75a13214daa6181968001c6e88d4a150b46be17c
+Author: Jigme Singay (S3511536) <69893454+jigmesingay@users.noreply.github.com>
+Date:   Tue May 4 21:42:14 2021 +1000
+
+    added an updated class diagram
+
+commit 2c25973e19cf1ddfa22d8d129bbd29b0368d9c14
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 20:57:08 2021 +1000
+
+    added a few exta null checks for login
+
+commit 15fcd9acb4652d8643a1bbdeb92bab4f20ca4d01
+Merge: 37adb77 5ed4d2c
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Tue May 4 20:45:15 2021 +1000
+
+    Merge branch 'main' of https://github.com/sef-2021-s1/team-project-n-24 into main
+
+commit 37adb77065f3d51f1ed320bec726f264a249e596
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Tue May 4 20:44:51 2021 +1000
+
+    Uploaded sequence diagram
+
+commit 91ae7539e9040ceb552c499425c3614bc6061ff5
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Tue May 4 20:11:36 2021 +1000
+
+    Changed state diagram
+
+commit 5ed4d2cfe6b5ed9ee2e7efd29a192cdf733fea60
+Merge: c23c2f0 1f2b8fc
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 20:04:38 2021 +1000
+
+    Merge branch 'main' of https://github.com/sef-2021-s1/team-project-n-24 into main
+
+commit c23c2f0c60a7a00b5ab7bd85b918a108a58b443d
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 20:04:29 2021 +1000
+
+    Patrick Solomon added class diagram
+
+commit 1f2b8fc7e0f1ffdeddcbca23bbb96396e5d2edda
+Author: patricksoliman <s3850531@student.rmit.edu.au>
+Date:   Tue May 4 19:52:02 2021 +1000
+
+    Add files via upload
+
+commit 808e9a9b63c38d39ccb0cbc1c3997edfe51cf627
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 15:18:34 2021 +1000
+
+    changed constructors of User, Show, Review to take String[] instead of many String parameters. Review dates are now calculated automatically
+
+commit f87951ff098d944c1ff121eb5e16afce1ee9722b
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 14:28:36 2021 +1000
+
+    in viewAllShows, all the reviews of the current show are displayed underneath it.
+
+commit 2dfbe754e2074cb996b614d547e2456349a421b2
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Tue May 4 02:51:29 2021 +1000
+
+    passwords are now hashed and salted
+
+commit 14e1a69c49d49dec839608a6531806b406aca5fb
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Mon May 3 23:27:52 2021 +1000
+
+    Added state diagram
+
+commit 74bd133a3fa8531a860e657c9c9f6ea81d8e46d2
+Merge: 7674186 6e5b44c
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 19:50:25 2021 +1000
+
+    Merge branch 'main' into basicpage
+
+commit 767418670fe94db982867e1ac374b96bdb14b206
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 19:40:33 2021 +1000
+
+    trying to add ability to rate movies on the showAllMovies page
+
+commit e7ea59a071790a1d76c84849df768e3f3c16ff1f
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 15:15:51 2021 +1000
+
+    deleted unnecessary folders and files, mostly old versions of the project
+
+commit e7ab278e40899c6af5cd87b9e80f52b0ce8aca1a
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 15:14:49 2021 +1000
+
+    Added view all movies function
+
+commit 0288d17c185a43215b8744964e4cf4b083c8f7a8
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 12:59:12 2021 +1000
+
+    reconfigured internals. added reviewDAO
+
+commit 982605ff4ec18cf31fab98b8f98fd11ad9cb3c9d
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 12:35:53 2021 +1000
+
+    cleaned up external structure
+
+commit 31baf41ebc955b118b37e6bba67a1e96d7e41869
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 04:49:31 2021 +1000
+
+    fixed logout. added check for admin status before doing certain tasks
+
+commit 7f107217d896ea9cb1c0995d75d6aa9612b2cb3a
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 02:41:55 2021 +1000
+
+    added confirmation/rejection notifications to all functions
+
+commit ae6477bfc13e00e6c9b8d5fe09d88a67f57e4d88
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 01:55:25 2021 +1000
+
+    sign up and add review added
+
+commit fcea4af831670f1da1163a930415bb4975beffc6
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Mon May 3 00:48:43 2021 +1000
+
+    added login and log out
+
+commit c6c7d48e06bf8258ab11e925d6b52e9caabb2a18
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 17:20:14 2021 +1000
+
+    completed
+
+commit 18ee37a026083dd2a36f9881b1365aabdc931bf1
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 16:49:31 2021 +1000
+
+    almost working
+
+commit 638817b57058210413ef92fbc138251222755435
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 16:05:39 2021 +1000
+
+    stripped most stuff
+
+commit 5eda401699cce1726594f29e32a753a48b0e0db3
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 15:40:47 2021 +1000
+
+    new branch for informative purposes
+
+commit 6e5b44c973a27490af760515d0525c9b2b72deca
+Merge: bd9116f 7983c42
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 03:01:59 2021 +1000
+
+    Merge branch 'main' of https://github.com/sef-2021-s1/team-project-n-24 into main
+
+commit bd9116f12a9da8b8415380e2a2c20c26d4a3e4d8
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sun May 2 03:01:43 2021 +1000
+
+    modified setupdatabase text file
+
+commit 7983c423b911f4d07f105fffc13c1bc2a1e268a9
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Sun May 2 00:48:58 2021 +1000
+
+    Created activity diagram
+
+commit d125d9f3a7df04f89cab3d28e1d0f51db28ecdb4
+Merge: 60781fa 9d172df
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Sun May 2 00:09:33 2021 +1000
+
+    Merge branch 'main' of https://github.com/sef-2021-s1/team-project-n-24 into main
+
+commit 60781fab4630219633cf2f85017ac2357da3d46a
+Author: nikjg3 <nikolasgrubits@hotmail.com>
+Date:   Sun May 2 00:09:03 2021 +1000
+
+    Modified team information document
+
+commit 9d172df491a46d1e87edac207bf765ef0729d738
+Author: s3815027 <79889184+s3815027@users.noreply.github.com>
+Date:   Sun May 2 00:07:40 2021 +1000
+
+    UPDATED
+
+commit 7bbf8eb81450d6517dddda1edf3fc37b5adcc067
+Author: FraserGreen <73095000+FraserGreen@users.noreply.github.com>
+Date:   Sat May 1 22:51:41 2021 +0930
+
+    Update README.md
+
+commit 18f975fd7d74dec9dea7a8b1421c0f992ad1ccf1
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sat May 1 22:08:39 2021 +1000
+
+    copied over master branch
+
+commit ae04f4f451c91a7ec381df3df3dc8444912c7bdb
+Author: [Fraser Green s3787186] <s3787186@student.rmit.edu.au>
+Date:   Sat May 1 22:05:35 2021 +1000
+
+    copied files from n-20 repo
+
+commit e47c648cb46b106a097180fe9d86cf7c7851169d
+Author: Jigme Singay S3511536 <s3511536@student.rmit.edu.au>
+Date:   Fri Apr 9 23:51:20 2021 +1000
+
+    first commit

@@ -1,0 +1,57 @@
+1. Download MySQL 
+	https://dev.mysql.com/downloads/file/?id=503092
+
+2. Setup following this video exactly 
+	*****NOTE******
+	When selecting which components to include (server and workbench), 
+	go to connections, and also include connector J.
+	This is done so that you can connect the java code to the server.
+	***************
+	https://www.youtube.com/watch?v=u96rVINbAUI
+
+3. Open up MySQL Workbench
+
+4. Open "Local instance MySQL80"
+
+5. Paste the following into the empty white box:
+	CREATE SCHEMA IF NOT EXISTS MovieMad;
+
+6. Click the lightning bolt icon above the tab
+
+7. On the left side of the screen, near the middle, there is a tab called "Schemas". Click it.
+
+8. The window above should have changed. In the top right corner of the window, click the refresh icon.
+
+9. A new database should appear, 'moviemad'. Double click it.
+
+10. File > Open SQL Script
+	Navigate to our shared github repo, and select the .sql file (M1_sql.sql)
+
+11. A new tab with a bunch of commands should appear. Click the lightning bolt icon, the one that is on the left.
+	The database is now configured on your computer.
+
+12. Open control panel. System and Security > System > Advanced System Settings > Environment Variables
+
+13. In system variables, check if you already have an entry called "CLASSPATH". 
+	If you do, click edit. If you dont, click "New..." at the bottom.
+
+14. If it's not there, type in the top field: CLASSPATH
+
+15. Type in the bottom field: C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.24.jar
+
+16. Click "OK" in all the windows that were opened up, then close control panel.
+
+17. Open IDE with our java project in it.
+
+18. add jar file to project:
+	Eclipse: right click project > properties > java build path > Add external jars. 
+	then select the jar file. Click ok
+
+	Intellij: right click project > open module settings > click the plus icon at the bottom > JARs or directories. 
+	select the jar file. Click apply, click ok.
+
+19. In your IDE, go to: src > model > TEST_CONNECTION
+
+20. Add your MYSQL username and password (default username: root, no default password) to the command line arguments.
+
+21. Run the program. If your console displays 'caramel6', everything is working correctly.

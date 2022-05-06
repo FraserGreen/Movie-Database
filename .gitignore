@@ -1,0 +1,6 @@
+#.gitignore
+*.class
+*.classpath
+*.project
+*.vscode
+*eclipse*

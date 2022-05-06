@@ -1,0 +1,11 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>View All Account Requests:</h1>
+    #foreach($request in $requests)
+    <div class="col">
+            <a class="book" href="/viewAccountRequest/$request.requestID">
+                $request.email requests to be a $request.type
+            </a>
+        </div>
+    #end
+#end

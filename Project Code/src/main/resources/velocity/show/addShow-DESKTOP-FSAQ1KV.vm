@@ -1,0 +1,30 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id='loginForm' method='post'>
+#if($authenticationFailed)
+        <p class="bad notification">Show not added</p>
+    #elseif($authenticationSucceeded)
+        <p class="good notification">Successfully added show!</p>
+    #end
+<h1>Add show to database</h1>
+    <p>Please enter details of show:</p>
+<label>Title</label>
+<input type="text" name="title" placeholder="Title" value="" required>
+<label>Genre</label>
+<input type="text" name="genre" placeholder="Genre" value="" required>
+<label>Length</label>
+<input type="text" name="length" placeholder="1" value="" required>
+<label>Movie or Series?</label>
+<select name="showType">
+<option>Movie</option>
+<option>Series</option>
+</select><br><br>
+<label>ProcoId</label>
+<input type="text" name="procoId" placeholder="2" value="" required>
+<label>Year</label>
+<input type="text" name="year" placeholder="2020" value="" required>
+<label>Image file</label>
+<input type="text" name="image" placeholder="image.png" value="" required>
+<input type="submit" value="Add Show">
+</form>
+#end

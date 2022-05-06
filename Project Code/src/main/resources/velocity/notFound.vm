@@ -1,0 +1,7 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<h1>Error 404: Page not found. </h1>
+<br>
+<br>
+<h2>Go back to the <a href='/'>Index</a> page</h2>
+#end

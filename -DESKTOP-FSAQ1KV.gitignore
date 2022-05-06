@@ -1,0 +1,12 @@
+#.gitignore
+*.class*
+*.project
+*.vscode
+*eclipse*
+Project Code/.settings
+Project Code/.vscode
+Project Code/.idea
+Project Code/bin/*
+Project Code/bin
+Project Code/target
+#Project Code/*.iml

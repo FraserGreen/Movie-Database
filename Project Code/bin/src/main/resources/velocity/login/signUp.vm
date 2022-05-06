@@ -1,0 +1,17 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id="loginForm" method="post">
+    #if($authenticationFailed)
+        <p class="bad notification">Username already in use</p>
+    #elseif($authenticationSucceeded)
+        <p class="good notification">Successfully signed up!</p>
+    #end
+    <h1>Sign Up</h1>
+    <p>Please enter your details:</p>
+    <label>Username</label>
+    <input type="text" name="username" placeholder="Username" value="" required>
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Password" value="" required>
+    <input type="submit" value="Log in">
+</form>
+#end

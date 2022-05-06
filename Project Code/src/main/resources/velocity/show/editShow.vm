@@ -1,0 +1,24 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+<form id='loginForm' method='post'>
+<h2>Edit details of $show.title:</h2>
+<label>Title</label>
+<input type="text" name="title" placeholder="$show.title" value="$show.title" required>
+<label>Genre</label>
+<input type="text" name="genre" placeholder="$show.genre" value="$show.genre" required>
+<label>Length</label>
+<input type="text" name="length" placeholder="$show.length" value="$show.length" required>
+<label>Movie or Series?</label>
+<select name="showType">
+<option>Movie</option>
+<option>Series</option>
+</select><br><br>
+<label>ProcoId</label>
+<input type="text" name="procoId" placeholder="$show.procoID" value="$show.procoID" required>
+<label>Year</label>
+<input type="text" name="year" placeholder="$show.year" value="$show.year" required>
+<label>Image file</label>
+<input type="text" name="image" placeholder="$show.imageFilename" value="$show.imageFilename" required>
+<input type="submit" value="Edit Show">
+</form>
+#end
